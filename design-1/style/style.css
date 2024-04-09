@@ -1,6 +1,6 @@
         @font-face {
             font-family:Open Sans ;
-            src: url(/cdn/OpenSans-ExtraBold.ttf);
+            src: url(/design-1/cdn/OpenSans-ExtraBold.ttf);
         }
         body {
             margin:0;
@@ -33,7 +33,7 @@
             height: 600px;
             margin-top: 140px;
             margin-left: 20px;
-            background-color:rgb(255, 200, 10);
+            background-color:rgb(255, 200,10);
             border-radius: 20px;
         }
         .navbar {
