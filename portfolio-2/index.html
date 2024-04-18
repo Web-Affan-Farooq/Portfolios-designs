@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Customizable porfolio design <img src="" alt=""></title>
+    <!-- <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        body.active {
+            overflow-y: hidden;
+        }
+
+        .container {
+            height: 2000px; /* Adding a long content to generate the scrollbar */
+            overflow-y: auto;
+        }
+
+        /* Define the styles for the scrollbar */
+        .container::-webkit-scrollbar {
+            width: 17px; /* Width of the scrollbar */
+        }
+
+        /* Define the styles for the scrollbar track */
+        .container::-webkit-scrollbar-track {
+            background: orange; /* Color of the scrollbar track */
+        }
+
+        /* Define the styles for the scrollbar thumb (the draggable handle) */
+        .container::-webkit-scrollbar-thumb {
+            background: orange; /* Color of the scrollbar thumb */
+            border: 2px solid black; /* Border around the scrollbar thumb */
+            border-radius: 10px; /* Border radius of the scrollbar thumb */
+        }
+    </style> -->
+</head>
+
+<body>
+    <div class="container">
+        <div id="custom-prompt" style="display: none;">
+  <p>Let me know if you want me to work for you</p>
+  <input type="text" id="user-input" />
+  <button id="submit-button">Submit</button>
+</div>
+        <header class="header">
+            <nav class="navbar">
+                <span><a href="https://github.com/account" id="logo">Affan</a></span>
+                <ul>
+                    <li><a href="#section-1" style="color: var(--blue-color);">Home</a></li>
+                    <li><a href="#section-2">About</a></li>
+                    <li><a href="#section-3">Services</a></li>
+                    <li><a href="#section-4">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="section-1" id="section-1">
+                <br><br>
+                <div class="host-img"></div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="content-s-1">
+                    <h1>
+                        Its <span>Muhammad Affan</span>
+                    </h1>
+                    <h2>Developer and AI ethusiast</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor architecto quaerat suscipit sunt
+                        laboriosam atque pariatur modi praesentium odit assumenda esse deserunt dolorem, consequuntur
+                        itaque optio officia quos ducimus perferendis.
+                    </p>
+                    <br>
+                    <div class="social-icon-main">
+                        <div class="social-icon"><i class="fa-brands fa-facebook"></i></div>
+                        <div class="social-icon"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="social-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                        <div class="social-icon"><i class="fa-brands fa-twitter"></i></div>
+                    </div>
+                    <br>
+                    <br>
+                    <button class="btn-1" onclick="show1()">Hire me</button>
+                </div>
+            </section>
+            <section class="section-2" id="section-2">
+                <div class="s-2-main">
+                    <div class="s-2-c-1">
+                        <p class="s-2-header">About <span>me</span></p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae id omnis rem aperiam,
+                            quasi fugiat. Ad voluptatum, iste quaerat, ratione, eaque optio consequatur excepturi
+                            numquam nemo reiciendis repellat voluptate quia.
+                        </p>
+                        <br>
+                        <br>
+                        <button class="btn-2">portfolio</button>
+                    </div>
+                    <div class="s-2-c-2">
+                        <div class="host-img-2"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-3" id="section-3">
+                <div class="s-3-header">
+                    <p>Services</p>
+                </div>
+                <div class="s-3-main-1">
+                    <div class="s-3-child">
+                        <h2>Graphics Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aliquam asperiores error
+                            veniam, accusamus nemo iure! Accuet culpa repudiandae error dignissimos
+                        </p>
+                    </div>
+                    <div class="s-3-child">
+                        <h2>Graphics Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aliquam asperiores error
+                            veniam, accusamus nemo iure! Accusantium odit eveniet culpa repudiandae error dignissimos
+                        </p>
+                    </div>
+                    <div class="s-3-child">
+                        <h2>Graphics Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aliquam asperiores error
+                            veniam, accusamus nemo iure! Accusantium odit eveniet culpa repudiandae error dignissimos
+                        </p>
+                    </div>
+                </div>
+                <div class="s-3-main-2">
+                    <div class="s-3-child">
+                        <h2>Graphics Design</h2>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aliquam
+                            asperiores error
+                            veniam, accusamus nemo iure! Accusantium odit eveniet culpa repudiandae error dignissimos
+                        </p>
+                    </div>
+                    <div class="s-3-child">
+                        <h2>Graphics Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aliquam asperiores error
+                            veniam, accusamus nemo iure! Accusantium odit eveniet culpa repudiandae error dignissimos
+                        </p>
+                    </div>
+                    <div class="s-3-child">
+                        <h2>Graphics Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aliquam asperiores error
+                            veniam, accusamus nemo iure! Accusantium odit eveniet culpa repudiandae error dignissimos
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="section-4" id="section-4">
+                <div class="s-4-header">
+                    <p>Contact <span>me</span></p>
+                </div>
+                <label for="Full Name">
+                    <input type="text" placeholder="Full name" required="">
+                </label>
+                <br>
+                <label for="Email">
+                    <input type="Email" placeholder="Enter Email" required="">
+                </label>
+                <br>
+                <label for="Phone number">
+                    <input type="tel" placeholder="Phone number" required="">
+                </label>
+                <br>
+                <label for="Subject">
+                    <input type="text" placeholder="Subject" required="">
+                </label>
+                <br>
+                <label for="Description">
+                    <input type="textarea" placeholder="Enter a brief description of your project" required="">
+                </label>
+                <br>
+                <br>
+                <label for="submit message">
+                    <button class="btn-3" type="submit">Submit message</button>
+                </label>
+            </section>
+            <section class="section-5" id="section-5">
+                <p class="s-5-header"><span>Get</span> in touch</p>
+                <div class="s-5-main">
+                    <label for="Your Full Name">
+                        <input type="text" placeHolder="Your Full Name">
+                    </label>
+                    <br>
+                    <label for="Your company name">
+                        <input type="text" placeholder="Your company name">
+                    </label>
+                    <br> <label for="How should I assist you">
+                        <input type="text" placeholder="How can I assist you" >
+                    </label>
+                    <br> <label for="">
+                        <input type="text" placeholder="what is the average salary package in your company">
+                    </label>
+                    <br> <label for="">
+                        <input type="text">
+                    </label>
+                    <br> <label for="">
+                        <input type="text">
+                    </label>
+                    <br>
+                    <br>
+                    <br><br><br>
+                    <button type="submit" class="btn-4">Submit request</button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="social-icon-main-2">
+                <div class="social-icon"><i class="fa-brands fa-facebook"></i></div>
+                <div class="social-icon"><i class="fa-brands fa-instagram"></i></div>
+                <div class="social-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="social-icon"><i class="fa-brands fa-twitter"></i></div>
+            </div>
+            <br>
+            <ul>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About me</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Privacy policy</a></li>
+            </ul>
+            <br>
+            <p>&copy; codenim all rights reserved</p>
+        </footer>
+    </div>
+    <!-- <script src="/js/index-3.js"></script> -->
+    <script>
+        let message = `This website is just only for practice. It will be updated soon .Source code in available here for free: 
+        https://github.com/Web-Affan-Farooq/Portfolios-designs.git
+        thank you
+         `;
+        let delay = 10000;
+        setTimeout(
+            function () {
+                let querry = alert(message);
+            }, delay
+        );
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+               .container {
+            background: var(--background-body);
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background:rgb(32, 36, 33);
+        }
+        body.active {
+            overflow-y: hidden;
+        }
+
+        /* Define the styles for the scrollbar */
+        .container::-webkit-scrollbar {
+            width: 10px; /* Width of the scrollbar */
+            height: 20px;
+        }
+
+        /* Define the styles for the scrollbar track */
+        .container::-webkit-scrollbar-track {
+            background: black; /* Color of the scrollbar track */
+        }
+
+        /* Define the styles for the scrollbar thumb (the draggable handle) */
+        .container::-webkit-scrollbar-thumb {
+            background: var(--blue-color); /* Color of the scrollbar thumb */
+            border: 2px solid black; /* Border around the scrollbar thumb */
+            border-radius: 10px; /* Border radius of the scrollbar thumb */
+            width: 10px;
+            height: 20px;
+        }
+        body:active {
+            overflow-y: hidden;
+        }
+    </style>
+    <!-- <style>
+        *,*::before,*::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        a {
+            text-decoration: none;
+        }
+        li {
+            list-style-type: none;
+        }
+        a,img,span,input,button,ion-icon {
+            display: block;
+        }
+        button {
+            font: inherit;
+            background:none;
+            border: none;
+            cursor: pointer;
+        }
+        input {
+            font: inherit;
+            border: none;
+            width:100%;
+        }
+        html {
+            font-family: sans-serif;
+            scroll-behavior: smooth;
+        }
+        body {
+            overflow-x: hidden;
+            background-color: black;
+        }
+        body.active {
+            overflow-y: hidden;
+        }
+        ::-webkit-scrollbar { width:8px;}
+        ::-webkit-scrollbar-track { background: blueviolet;}
+        ::-webkit-scrollbar-thumb {
+            background-color: orange;
+            border-radius: 10px;
+        }
+        h1 {
+            color: white;
+        }
+    </style> -->
+</head>
+<body class="active">
+    <h1>this is heading</h1>
+</body>
+</html>
